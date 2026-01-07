@@ -19,6 +19,8 @@ echo "[*] Starting subdomain takeover scan from $INPUT_FILE..."
 while read domain; do
     echo "[*] Finding subdomains for: $domain"
     subfinder -d "$domain" -silent
+    chaos-client -d  "$domain" 
+    assetfinder --subs-only "$domain" 
 done < "$INPUT_FILE" | sort -u | tee "$ALL_DOMAINS"
 
 echo "[*] Running dig on all discovered subdomains..."
