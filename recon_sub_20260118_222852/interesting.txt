@@ -1,0 +1,99 @@
+http://blog.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://blog.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://beta.thuisbezorgd.nl:443 | 403 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | Attention Required! | Cloudflare
+http://beta.thuisbezorgd.nl:8080 | 403 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | Attention Required! | Cloudflare
+http://beta.thuisbezorgd.nl:80 | 403 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | Attention Required! | Cloudflare
+http://beingacourier.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://beingacourier.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://bonuswinkel.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://auth.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://auth.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://assets.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://assets.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://bonuswinkel.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://bonuswinkel.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://localhost.connect.thuisbezorgd.nl:80 | 200 | port:80 | ["Nginx:1.29.4","React","dc.js"] | The Ars0n Framework v2 Beta
+http://localhost.update.thuisbezorgd.nl:80 | 200 | port:80 | ["Nginx:1.29.4","React","dc.js"] | The Ars0n Framework v2 Beta
+https://beingacourier.thuisbezorgd.nl:443 | 530 | port:443 | ["Cloudflare","HTTP/3"] | null
+https://assets.thuisbezorgd.nl:443 | 404 | port:443 | ["Amazon Web Services","Cloudflare","Cloudflare Bot Management","HTTP/3"] | 404 Not Found
+https://blog.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://auth.thuisbezorgd.nl:443 | 404 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | null
+http://click.update.thuisbezorgd.nl:80 | 301 | port:80 | null | null
+https://cloud.update.thuisbezorgd.nl:443 | 404 | port:443 | null | null
+https://click.update.thuisbezorgd.nl:443 | 403 | port:443 | ["HSTS"] | 403 - Forbidden: Access is denied.
+http://connect-tv.thuisbezorgd.nl:80 | 404 | port:80 | null | Microsoft Azure Web App - Error 404
+http://cloud.update.thuisbezorgd.nl:80 | 302 | port:80 | null | null
+http://dominos.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://dominos.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://connect-tv.thuisbezorgd.nl:443 | 404 | port:443 | null | Microsoft Azure Web App - Error 404
+https://business.thuisbezorgd.nl:443 | 302 | port:443 | ["Salesforce Marketing Cloud Account Engagement"] | null
+http://business.thuisbezorgd.nl:80 | 301 | port:80 | ["Salesforce Marketing Cloud Account Engagement"] | null
+https://dominos.thuisbezorgd.nl:443 | 302 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | null
+http://emails.restaurants.thuisbezorgd.nl:80 | 404 | port:80 | null | 404 Not Found
+https://emails.restaurants.thuisbezorgd.nl:443 | 404 | port:443 | ["HSTS"] | 404 Not Found
+http://enquete.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://go.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://go.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://join.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://join.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://loyaltyshop.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://loyaltyshop.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://loyaltyshop.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://go.thuisbezorgd.nl:443 | 200 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | Just Eat Takeaway.com
+https://enquete.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://m.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://m.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://enquete.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://live-orders.thuisbezorgd.nl:443 | 200 | port:443 | ["Amazon CloudFront","Amazon S3","Amazon Web Services"] | Live Orders
+http://live-orders.thuisbezorgd.nl:80 | 301 | port:80 | ["Amazon CloudFront","Amazon Web Services"] | 301 Moved Permanently
+http://minisite.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://join.thuisbezorgd.nl:443 | 302 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 302 Found
+https://image.update.thuisbezorgd.nl:443 | 403 | port:443 | ["Akamai","Akamai Bot Manager"] | Access Denied
+http://minisite.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://mobiel.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://m.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://minisite.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://mobiel.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://offline.thuisbezorgd.nl:80 | 302 | port:80 | ["Cloudflare","HTTP/3"] | 302 Found
+https://offline.thuisbezorgd.nl:443 | 302 | port:443 | ["Cloudflare","HTTP/3"] | 302 Found
+http://offline.thuisbezorgd.nl:8080 | 302 | port:8080 | ["Cloudflare","HTTP/3"] | 302 Found
+http://faxserve.thuisbezorgd.nl:80 | 301 | port:80 | ["Apache HTTP Server"] | 301 Moved Permanently
+https://faxserve.thuisbezorgd.nl:443 | 301 | port:443 | ["Apache HTTP Server"] | 301 Moved Permanently
+https://mobiel.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://pages.update.thuisbezorgd.nl:80 | 403 | port:80 | null | 403 - Forbidden: Access is denied.
+https://pages.update.thuisbezorgd.nl:443 | 403 | port:443 | null | 403 - Forbidden: Access is denied.
+https://partner.thuisbezorgd.nl:443 | 530 | port:443 | ["Cloudflare","HTTP/3"] | null
+http://partner.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://partner.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://partnerblog.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://partnerblog.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://partnerblog.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://pay.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management"] | 301 Moved Permanently
+http://pay.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management"] | 301 Moved Permanently
+http://image.update.thuisbezorgd.nl:80 | 403 | port:80 | ["Akamai","Akamai Bot Manager"] | Access Denied
+http://restaurant.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://restaurant.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://restaurants.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://restaurants.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://restaurants.thuisbezorgd.nl:443 | 403 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | Just a moment...
+http://ribrunner.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://pay.thuisbezorgd.nl:443 | 404 | port:443 | ["Cloudflare","Cloudflare Bot Management","HSTS"] | null
+http://partner-hub.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://restaurant.thuisbezorgd.nl:443 | 200 | port:443 | ["Amazon CloudFront","Amazon Web Services","Cloudflare","Cloudflare Bot Management","HTTP/3"] | Partner Hub
+http://partner-hub.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://ribrunner.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://shop.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://shop.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://shop.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://ribrunner.thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://static.thuisbezorgd.nl:80 | 301 | port:80 | ["Amazon CloudFront","Amazon Web Services"] | 301 Moved Permanently
+https://thuisbezorgd.nl:443 | 301 | port:443 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://static.thuisbezorgd.nl:443 | 403 | port:443 | ["Amazon CloudFront","Amazon S3","Amazon Web Services"] | null
+http://thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://partner-hub.thuisbezorgd.nl:443 | 200 | port:443 | ["Amazon Web Services","Cloudflare","Cloudflare Bot Management","HTTP/3","jsDelivr"] | Partner Hub
+http://view.update.thuisbezorgd.nl:80 | 301 | port:80 | null | null
+https://view.update.thuisbezorgd.nl:443 | 302 | port:443 | ["HSTS"] | Object moved
+http://www.thuisbezorgd.nl:8080 | 301 | port:8080 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+http://www.thuisbezorgd.nl:80 | 301 | port:80 | ["Cloudflare","Cloudflare Bot Management","HTTP/3"] | 301 Moved Permanently
+https://www.thuisbezorgd.nl:443 | 403 | port:443 | ["Cloudflare","Cloudflare Bot Management","HSTS","HTTP/3"] | Just a moment...

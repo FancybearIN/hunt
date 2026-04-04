@@ -30,7 +30,7 @@ while read -r domain; do
         subfinder -d "$domain" -silent
         chaos-client -d "$domain"
         assetfinder --subs-only "$domain"
-        alterx -d "$domain" -silent
+        alterx -l "$domain" -silent
     } | sort -u | tee "$TMP_RAW"
 
     cat "$TMP_RAW" >> "$RAW_SUBS"

